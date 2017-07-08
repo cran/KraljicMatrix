@@ -4,7 +4,7 @@
 
 <head>
 
-<meta charset="utf-8">
+<meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
 
@@ -12,7 +12,7 @@
 
 <meta name="author" content="Bradley C. Boehmke" />
 
-<meta name="date" content="2017-02-20" />
+<meta name="date" content="2017-07-07" />
 
 <title>A Quantified Kraljic Matrix</title>
 
@@ -70,7 +70,7 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 
 <h1 class="title toc-ignore">A Quantified Kraljic Matrix</h1>
 <h4 class="author"><em>Bradley C. Boehmke</em></h4>
-<h4 class="date"><em>2017-02-20</em></h4>
+<h4 class="date"><em>2017-07-07</em></h4>
 
 
 
@@ -273,18 +273,18 @@ psc
                  <span class="dt">y_wt_max =</span> .<span class="dv">45</span>) %&gt;%
 <span class="st">  </span><span class="kw">select</span>(PSC, <span class="kw">starts_with</span>(<span class="st">&quot;MAVF&quot;</span>))
 ## # A tibble: 200 × 8
-##      PSC MAVF_Min MAVF_1st_Q MAVF_Median MAVF_Mean MAVF_3rd_Q MAVF_Max
-##    &lt;chr&gt;    &lt;dbl&gt;      &lt;dbl&gt;       &lt;dbl&gt;     &lt;dbl&gt;      &lt;dbl&gt;    &lt;dbl&gt;
-## 1   D233   0.8155     0.8293      0.8397    0.8394     0.8493   0.8635
-## 2   F352   0.9520     0.9571      0.9592    0.9593     0.9615   0.9667
-## 3   T713   0.8472     0.8612      0.8679    0.8680     0.8748   0.8893
-## 4   K833   0.7723     0.7877      0.8022    0.8016     0.8155   0.8306
-## 5   Q121   0.8597     0.8729      0.8789    0.8791     0.8853   0.8990
-## 6   C791   0.8775     0.8859      0.8942    0.8937     0.9016   0.9097
-## 7   Y207   0.8813     0.8907      0.8974    0.8973     0.9037   0.9134
-## 8   W439   0.6778     0.7022      0.7156    0.7157     0.7292   0.7543
-## 9   N290   0.4958     0.5261      0.5550    0.5538     0.5817   0.6111
-## 10  C251   0.2478     0.2981      0.3492    0.3467     0.3964   0.4455
+##      PSC  MAVF_Min MAVF_1st_Q MAVF_Median MAVF_Mean MAVF_3rd_Q  MAVF_Max
+##    &lt;chr&gt;     &lt;dbl&gt;      &lt;dbl&gt;       &lt;dbl&gt;     &lt;dbl&gt;      &lt;dbl&gt;     &lt;dbl&gt;
+## 1   D233 0.8155533  0.8290132   0.8391991 0.8392116  0.8493161 0.8632533
+## 2   F352 0.9520277  0.9567977   0.9593472 0.9591890  0.9613615 0.9666000
+## 3   T713 0.8472744  0.8604669   0.8681028 0.8678134  0.8746476 0.8889401
+## 4   K833 0.7723357  0.7876390   0.8016279 0.8013836  0.8148029 0.8305719
+## 5   Q121 0.8597270  0.8722858   0.8791793 0.8788943  0.8851860 0.8986461
+## 6   C791 0.8774900  0.8857372   0.8937250 0.8935657  0.9011966 0.9096756
+## 7   Y207 0.8813972  0.8904900   0.8970730 0.8971525  0.9037816 0.9131827
+## 8   W439 0.6779011  0.7015359   0.7152341 0.7153712  0.7288514 0.7537524
+## 9   N290 0.4958363  0.5259401   0.5537561 0.5533316  0.5800621 0.6110342
+## 10  C251 0.2480408  0.2970322   0.3476801 0.3459476  0.3939491 0.4457616
 ## # ... with 190 more rows, and 1 more variables: MAVF_Range &lt;dbl&gt;</code></pre></div>
 </div>
 </div>
@@ -308,7 +308,7 @@ psc
   (function () {
     var script = document.createElement("script");
     script.type = "text/javascript";
-    script.src  = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
     document.getElementsByTagName("head")[0].appendChild(script);
   })();
 </script>
